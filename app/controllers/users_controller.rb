@@ -6,5 +6,7 @@ class UsersController < ApplicationController
   end
 
   def edit
+    @user = PostImage.find(params[:id]) 
+    
   end
 end
